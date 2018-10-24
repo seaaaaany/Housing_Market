@@ -7,10 +7,10 @@ import pandas as pd
 from config import gkey1
 
 # Target city. Getting coordinates from Google GenCoding API
-city_address = pd.read_csv('...Raw_Data/1-1.city_codes.csv', sep=',')
+city_address = pd.read_csv('../Raw_Data/1-1.city_codes.csv', sep=',')
 
 # Grab LA county Data
-LA_cities = city_address[city_address]['Metro'] == 'Los Angeles'
+LA_cities = city_address[city_address['Metro'] == 'Los Angeles']
 
 # Lsit of 20 top cities by population in LA county
 
