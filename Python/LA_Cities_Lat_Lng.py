@@ -48,7 +48,7 @@ for i in range(len(LA_cities)):
         final.append(table_final)
 final = pd.DataFrame(final)
 final
-# regions=pd.DataFrame(final)
+
 list_Region = final['Region']
 list_Region
 
@@ -61,6 +61,7 @@ for i in range(len(list_Region)):
     target_url = "https://maps.googleapis.com/maps/api/geocode/json?" \
         "address=%s&key=%s" % (target_city, gkey1)
     geo_data = requests.get(target_url).json()
+
     # print(geo_data)
     R1 = geo_data["results"][0]
     # print(R1)
