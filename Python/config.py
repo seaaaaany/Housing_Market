@@ -1,1 +1,1 @@
-gkey1="AIzaSyAK7tyz-RN3xcZiBVZZLacUwyBlmaKNrvg"
+gkey1 = "AIzaSyAK7tyz-RN3xcZiBVZZLacUwyBlmaKNrvg"
